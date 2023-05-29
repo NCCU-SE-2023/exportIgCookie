@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Export Instagram Cookies",
+    "version": "1.0",
+    "description": "A Chrome extension to export all cookies from Instagram",
+    "host_permissions": ["*://*.instagram.com/"],
+    "permissions": ["cookies"],
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
+
